@@ -1,0 +1,1487 @@
+{
+ "version": "2.1.0",
+ "$schema": "http://json.schemastore.org/sarif-2.1.0-rtm.4",
+ "runs": [
+  {
+   "tool": {
+    "driver": {
+     "name": "Amarna"
+    }
+   },
+   "results": [
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 1012,
+         "startColumn": 26,
+         "endLine": 1012,
+         "endColumn": 54
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 692,
+         "startColumn": 23,
+         "endLine": 692,
+         "endColumn": 43
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 707,
+         "startColumn": 19,
+         "endLine": 707,
+         "endColumn": 42
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 739,
+         "startColumn": 69,
+         "endLine": 739,
+         "endColumn": 74
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 746,
+         "startColumn": 29,
+         "endLine": 746,
+         "endColumn": 34
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 746,
+         "startColumn": 39,
+         "endLine": 746,
+         "endColumn": 50
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 746,
+         "startColumn": 71,
+         "endLine": 746,
+         "endColumn": 76
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 758,
+         "startColumn": 13,
+         "endLine": 758,
+         "endColumn": 36
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 784,
+         "startColumn": 25,
+         "endLine": 784,
+         "endColumn": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 792,
+         "startColumn": 15,
+         "endLine": 792,
+         "endColumn": 29
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 826,
+         "startColumn": 19,
+         "endLine": 826,
+         "endColumn": 29
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 828,
+         "startColumn": 21,
+         "endLine": 828,
+         "endColumn": 26
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 828,
+         "startColumn": 76,
+         "endLine": 828,
+         "endColumn": 93
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 838,
+         "startColumn": 21,
+         "endLine": 838,
+         "endColumn": 74
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 869,
+         "startColumn": 69,
+         "endLine": 869,
+         "endColumn": 90
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-add",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 885,
+         "startColumn": 22,
+         "endLine": 885,
+         "endColumn": 35
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-div",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 81,
+         "startColumn": 19,
+         "endLine": 81,
+         "endColumn": 27
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 692,
+         "startColumn": 23,
+         "endLine": 692,
+         "endColumn": 32
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 707,
+         "startColumn": 19,
+         "endLine": 707,
+         "endColumn": 38
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 718,
+         "startColumn": 13,
+         "endLine": 718,
+         "endColumn": 22
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 719,
+         "startColumn": 39,
+         "endLine": 719,
+         "endColumn": 44
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 754,
+         "startColumn": 17,
+         "endLine": 754,
+         "endColumn": 22
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 758,
+         "startColumn": 13,
+         "endLine": 758,
+         "endColumn": 32
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 781,
+         "startColumn": 13,
+         "endLine": 781,
+         "endColumn": 21
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 838,
+         "startColumn": 21,
+         "endLine": 838,
+         "endColumn": 43
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 838,
+         "startColumn": 46,
+         "endLine": 838,
+         "endColumn": 74
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-mul",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 868,
+         "startColumn": 45,
+         "endLine": 868,
+         "endColumn": 54
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 707,
+         "startColumn": 24,
+         "endLine": 707,
+         "endColumn": 37
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 744,
+         "startColumn": 56,
+         "endLine": 744,
+         "endColumn": 70
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 758,
+         "startColumn": 18,
+         "endLine": 758,
+         "endColumn": 31
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 828,
+         "startColumn": 53,
+         "endLine": 828,
+         "endColumn": 74
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 838,
+         "startColumn": 47,
+         "endLine": 838,
+         "endColumn": 63
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 868,
+         "startColumn": 39,
+         "endLine": 868,
+         "endColumn": 54
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 923,
+         "startColumn": 33,
+         "endLine": 923,
+         "endColumn": 51
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "arithmetic-sub",
+     "level": "warning",
+     "message": {
+      "text": "Cairo arithmetic is defined over a finite field and has potential for overflows."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 944,
+         "startColumn": 36,
+         "endLine": 944,
+         "endColumn": 74
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "dead-store",
+     "level": "warning",
+     "message": {
+      "text": "This variable is assigned or declared here but not used before a return statement."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 1031,
+         "startColumn": 10,
+         "endLine": 1031,
+         "endColumn": 26
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "dead-store",
+     "level": "warning",
+     "message": {
+      "text": "This variable is assigned or declared here but not used before a return statement."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 638,
+         "startColumn": 10,
+         "endLine": 638,
+         "endColumn": 18
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "dead-store",
+     "level": "warning",
+     "message": {
+      "text": "This variable is assigned or declared here but not used before a return statement."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 677,
+         "startColumn": 10,
+         "endLine": 677,
+         "endColumn": 18
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "dead-store",
+     "level": "warning",
+     "message": {
+      "text": "This variable is assigned or declared here but not used before a return statement."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 702,
+         "startColumn": 11,
+         "endLine": 702,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "dead-store",
+     "level": "warning",
+     "message": {
+      "text": "This variable is assigned or declared here but not used before a return statement."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 794,
+         "startColumn": 24,
+         "endLine": 794,
+         "endColumn": 27
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "must-check-caller-address",
+     "level": "warning",
+     "message": {
+      "text": "The function get_caller_address returns 0 when the contract is called directly which might be unexpected"
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 1029,
+         "startColumn": 16,
+         "endLine": 1029,
+         "endColumn": 22
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "must-check-caller-address",
+     "level": "warning",
+     "message": {
+      "text": "The function get_caller_address returns 0 when the contract is called directly which might be unexpected"
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 1060,
+         "startColumn": 10,
+         "endLine": 1060,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "must-check-caller-address",
+     "level": "warning",
+     "message": {
+      "text": "The function get_caller_address returns 0 when the contract is called directly which might be unexpected"
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 482,
+         "startColumn": 10,
+         "endLine": 482,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "sucess-must-be-checked",
+     "level": "warning",
+     "message": {
+      "text": "This function returns an error code which must be properly checked."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 346,
+         "startColumn": 10,
+         "endLine": 346,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "sucess-must-be-checked",
+     "level": "warning",
+     "message": {
+      "text": "This function returns an error code which must be properly checked."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 550,
+         "startColumn": 10,
+         "endLine": 550,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "sucess-must-be-checked",
+     "level": "warning",
+     "message": {
+      "text": "This function returns an error code which must be properly checked."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 570,
+         "startColumn": 10,
+         "endLine": 570,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "uninitialized-variable",
+     "level": "warning",
+     "message": {
+      "text": "This local variable is uninitialized and never assigned."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 639,
+         "startColumn": 11,
+         "endLine": 639,
+         "endColumn": 17
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "uninitialized-variable",
+     "level": "warning",
+     "message": {
+      "text": "This local variable is uninitialized and never assigned."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 702,
+         "startColumn": 11,
+         "endLine": 702,
+         "endColumn": 16
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-function",
+     "level": "warning",
+     "message": {
+      "text": "This function is never called."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 96,
+         "startColumn": 1,
+         "endLine": 98,
+         "endColumn": 4
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 17,
+         "startColumn": 41,
+         "endLine": 17,
+         "endColumn": 50
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 17,
+         "startColumn": 92,
+         "endLine": 17,
+         "endColumn": 107
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 19,
+         "startColumn": 64,
+         "endLine": 19,
+         "endColumn": 80
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 23,
+         "startColumn": 64,
+         "endLine": 23,
+         "endColumn": 84
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 27,
+         "startColumn": 35,
+         "endLine": 27,
+         "endColumn": 47
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 29,
+         "startColumn": 45,
+         "endLine": 29,
+         "endColumn": 54
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 29,
+         "startColumn": 66,
+         "endLine": 29,
+         "endColumn": 79
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 31,
+         "startColumn": 45,
+         "endLine": 31,
+         "endColumn": 51
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 41,
+         "startColumn": 68,
+         "endLine": 41,
+         "endColumn": 82
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 43,
+         "startColumn": 53,
+         "endLine": 43,
+         "endColumn": 67
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 46,
+         "startColumn": 52,
+         "endLine": 46,
+         "endColumn": 63
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 46,
+         "startColumn": 65,
+         "endLine": 46,
+         "endColumn": 70
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 48,
+         "startColumn": 43,
+         "endLine": 48,
+         "endColumn": 49
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 55,
+         "startColumn": 5,
+         "endLine": 55,
+         "endColumn": 23
+        }
+       }
+      }
+     ]
+    },
+    {
+     "ruleId": "unused-imports",
+     "level": "warning",
+     "message": {
+      "text": "Unused imports could be removed."
+     },
+     "locations": [
+      {
+       "physicalLocation": {
+        "artifactLocation": {
+         "uri": "file:///Users/pascalso/Documents/GitHub/Quasar-Labs/src/penrose.cairo",
+         "index": 0
+        },
+        "region": {
+         "startLine": 60,
+         "startColumn": 5,
+         "endLine": 60,
+         "endColumn": 19
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

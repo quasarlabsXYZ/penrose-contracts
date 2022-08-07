@@ -1,0 +1,29 @@
+starknet declare --contract ./build/penrose.json --network=alpha-goerli
+protostar deploy ./build/proxy.json --inputs 0x3311506106b9d33e95aa8e212faad696f47bba57288d40e6d008dbf50e83293 --network alpha-goerli
+starknet invoke --address 0x061517d6ede959856edcf440b5f48f5373b6d29a76cf859f95c137843b5ccfb7 --abi ./build/penrose_abi.json --function initializer --inputs 22629523177567077 1346719314 0x0183cf11025a1201e87c49f20081895eaaad3f2fd3b0d562af05994f057ae642 0x0183cf11025a1201e87c49f20081895eaaad3f2fd3b0d562af05994f057ae642 200 --network alpha-goerli --max_fee 2
+
+--------
+
+starknet declare --contract ./build/penrose.json --network=alpha-goerli
+protostar deploy ./build/crisp.json --inputs 289143346000 289143346000 100 700 1 100 100 --network alpha-goerli
+
+------
+
+protostar deploy ./build/penrose.json --inputs \
+22629523177567077 \
+1346719314 \
+0x0246aaD68798305FF4AB881d9e2833CDD0bb63EE074F796bB343c7B575759592 \
+0x0246aaD68798305FF4AB881d9e2833CDD0bb63EE074F796bB343c7B575759592 \
+200 \
+100 \
+700 \
+1 \
+100 \
+50000000000000000 \
+0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7 \
+0x0746988b2cac0e7ac76f82fc83f585c78caff58b38ecf74e88137eb8073d6d59 \
+0x01e677ebfdbfc0f649a6b11aac64c89b975583605ea7dde40e6d796efe2c4c67 \
+0x00df65117d74a04689114d94457f96db8767cd529cd1c837c013b69fb57a1327 \
+0x044977ff7d5931bec061c1e161aaa8af0338266114c3da6ddfd05c4e542fdfae \
+0x0009daa570ae63b3c608d8071a8c82f0b61935c1721820cc529108969ba11162 \
+ --network alpha-goerli

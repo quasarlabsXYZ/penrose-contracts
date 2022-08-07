@@ -1,0 +1,16 @@
+["protostar.config"]
+protostar_version = "0.2.6"
+
+["protostar.project"]
+libs_path = "src"
+
+["protostar.contracts"]
+penrose = [
+    "src/penrose.cairo",
+]
+
+["protostar.shared_command_configs"]
+cairo_path = ["./src/cairo_contracts/src"]
+
+["protostar.test"]
+stdout-on-success = true
