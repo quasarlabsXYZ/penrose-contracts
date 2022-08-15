@@ -55,7 +55,9 @@ from src.utils.Math64x61 import (
     Math64x61_add, 
     Math64x61_log2, 
     Math64x61_ceil, 
-    Math64x61_toFelt
+    Math64x61_toFelt,
+    Math64x61_max,
+    Math64x61_min
 )
 
 #
@@ -1063,8 +1065,8 @@ func getQuote{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}
         result = next_purchase_starting_price
     else:
         # decay price if current block is AFTER block that the decay is supposed to start
-        
-        let (decay_interval: felt) = Math64x61_fromFelt(before_or_after)
+        let (dec_int: felt) = Math64x61_fromFelt(before_or_after)
+        let (decay_interval: felt) = Math64x61_min(dec_int, 9892066509526750000000)
         let (neg_di: felt) = Math64x61_sub(0, decay_interval)
         let (decay: felt) = Math64x61_div(neg_di, price_half_life)
         let (exp_decay: felt) = Math64x61_exp(decay)
@@ -1089,6 +1091,7 @@ func getNextStartingPrice{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, rang
     let (local price_speed: felt) = priceSpeed.read() #price_speed = 1
     let (local is_before: felt) = is_le(mismatchRatio, FP_ONE)
 
+    #  actual EMS is higher than target EMS
     if is_before == 0:
         let (ratio: felt) = Math64x61_mul(mismatchRatio, price_speed)
         let (multiplier: felt) = Math64x61_add(FP_ONE, ratio)
@@ -1158,10 +1161,6 @@ func mint{bitwise_ptr: BitwiseBuiltin*, syscall_ptr: felt*, pedersen_ptr: HashBu
     priceDecayStartBlock.write(price_decay_start_block)
 
     lastPurchasePrice.write(price)
-
-
-    # issue refund
-    # no such thing as msg.value/msg.sender.call on starknet yet
 
     return ()
 end
