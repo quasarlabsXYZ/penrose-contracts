@@ -19,7 +19,6 @@ end
 
 # Adding
 
-@view
 func add_first{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -30,7 +29,6 @@ func add_first{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr
     return (arr_len + 1, new_arr)
 end
 
-@view
 func add_last{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -42,7 +40,6 @@ func add_last{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}
     return (arr_len + 1, new_arr)
 end
 
-@view
 func add_at{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, index : felt, item : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -57,7 +54,6 @@ end
 
 # Removing
 
-@view
 func remove_first{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (arr_len : felt, arr : felt*):
@@ -68,7 +64,6 @@ func remove_first{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_
     return (arr_len - 1, new_arr)
 end
 
-@view
 func remove_last{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (arr_len : felt, arr : felt*):
@@ -79,7 +74,6 @@ func remove_last{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_p
     return (arr_len - 1, new_arr)
 end
 
-@view
 func remove_at{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, index : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -92,7 +86,6 @@ func remove_at{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr
     return (arr_len - 1, new_arr)
 end
 
-@view
 func remove_first_occurence_of{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -113,7 +106,6 @@ func remove_first_occurence_of_recursive{
     return remove_first_occurence_of_recursive(arr_len, arr, item, current_index + 1)
 end
 
-@view
 func remove_last_occurence_of{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -134,7 +126,6 @@ func remove_last_occurence_of_recursive{
     return remove_last_occurence_of_recursive(arr_len, arr, item, current_index - 1)
 end
 
-@view
 func remove_all_occurences_of{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (arr_len : felt, arr : felt*):
@@ -165,7 +156,6 @@ end
 
 # Reverse
 
-@view
 func reverse{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (arr_len : felt, arr : felt*):
@@ -211,7 +201,6 @@ end
 
 # Join
 
-@view
 func join{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr1_len : felt, arr1 : felt*, arr2_len : felt, arr2 : felt*
 ) -> (arr_len : felt, arr : felt*):
@@ -222,7 +211,6 @@ func join{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     return (arr1_len + arr2_len, new_arr)
 end
 
-@view
 func copy_from_to{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, from_index : felt, to_index : felt
 ) -> (arr_len : felt, arr : felt*):

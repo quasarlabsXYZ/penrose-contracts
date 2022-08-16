@@ -6,21 +6,18 @@ from starkware.cairo.common.alloc import alloc
 const BITS_SIZE = 8
 const MAX_PER_FELT = 31  # 251 // 7 = qutotient=35
 
-@view
 func get_element_at{
     bitwise_ptr : BitwiseBuiltin*, syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr
 }(input : felt, at : felt) -> (response : felt):
     return bits_manipulation.actual_get_element_at(input, at * BITS_SIZE, BITS_SIZE)
 end
 
-@view
 func set_element_at{
     bitwise_ptr : BitwiseBuiltin*, syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr
 }(input : felt, at : felt, element : felt) -> (response : felt):
     return bits_manipulation.actual_set_element_at(input, at * BITS_SIZE, BITS_SIZE, element)
 end
 
-@view
 func decompose{
     bitwise_ptr : BitwiseBuiltin*, syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr
 }(felt_to_decompose : felt) -> (arr_len : felt, arr : felt*):

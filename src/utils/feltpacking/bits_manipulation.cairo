@@ -16,7 +16,6 @@ namespace external:
     # @param at: The position of the element that needs to be extracted, starts a 0
     # @param number_of_bits: The size of the element that needs to be extracted
     # @return response: The felt that was extracted at the position asked, on the number of bits asked
-    @view
     func actual_get_element_at{
         bitwise_ptr : BitwiseBuiltin*,
         syscall_ptr : felt*,
@@ -37,7 +36,6 @@ namespace external:
     # @param number_of_bits: The size of the element that needs to be extracted
     # @param element: The element that needs to be encoded
     # @return response: The new felt containing the encoded value a the given position on the given number of bits
-    @view
     func actual_set_element_at{
         bitwise_ptr : BitwiseBuiltin*,
         syscall_ptr : felt*,

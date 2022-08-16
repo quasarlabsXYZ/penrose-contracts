@@ -426,7 +426,7 @@ func test_mint_price_zero{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_
     local penrose: felt
     local ETH: felt
     %{ 
-        ids.penrose = context.penrose 
+        ids.penrose = context.penrose
         ids.ETH = context.ETH
         roll(0, ids.penrose) 
         close_user_1 = start_prank(11111, ids.penrose)

@@ -5,7 +5,6 @@ from starkware.cairo.common.bool import TRUE
 from utils.arrays.utils import assert_check_array_not_empty
 
 # Searching
-@view
 func contains{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (contains : felt):
@@ -16,7 +15,6 @@ func contains{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}
     return (1)
 end
 
-@view
 func index_of{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (index : felt):
@@ -36,7 +34,6 @@ func index_of_recursive{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_
     return index_of_recursive(arr_len, arr, item, current_index + 1)
 end
 
-@view
 func min{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (min : felt):
@@ -44,7 +41,6 @@ func min{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     return (arr[indexOfMin])
 end
 
-@view
 func index_of_min{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (index : felt):
@@ -67,7 +63,6 @@ func index_of_min_recursive{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, ra
     return index_of_min_recursive(arr_len, arr, current_min, current_min_index, current_index + 1)
 end
 
-@view
 func max{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (max : felt):
@@ -75,7 +70,6 @@ func max{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     return (arr[indexOfMax])
 end
 
-@view
 func index_of_max{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*
 ) -> (index : felt):
@@ -98,7 +92,6 @@ func index_of_max_recursive{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, ra
     return index_of_max_recursive(arr_len, arr, current_max, current_max_index, current_index + 1)
 end
 
-@view
 func occurrences_of{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
     arr_len : felt, arr : felt*, item : felt
 ) -> (occurrences : felt):

@@ -15,7 +15,6 @@
 
 %lang starknet
 from starkware.cairo.common.math import unsigned_div_rem, assert_lt, abs_value, signed_div_rem
-
 from starkware.cairo.common.cairo_builtins import HashBuiltin, BitwiseBuiltin
 from starkware.cairo.common.uint256 import Uint256
 from starkware.cairo.common.bool import TRUE
@@ -822,7 +821,7 @@ func wrap_to_svg{bitwise_ptr : BitwiseBuiltin*, syscall_ptr : felt*, pedersen_pt
     let str_color = color_scheme * 'black' + (1 - color_scheme) * 'white'
     
     assert uri[0]  =   'data:application/json;charset='
-    assert uri[1]  =   'utf-8,{"name":"#'
+    assert uri[1]  =   'utf-8,{"name":"Penrose: #'
     assert uri[2]  =   str_token_id
     assert uri[3]  =   '","attributes":[{"trait_type":'
     assert uri[4]  =   '"scheme","value":"'
